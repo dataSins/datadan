@@ -1,0 +1,112 @@
+body {
+  font-family: Verdana;
+  color: #444;
+}
+
+#inner {
+  padding: 10px 80px;
+  margin: 80px auto;
+}
+
+.yui-gf {
+  float: right;
+  color: #FF00FF;
+
+}
+
+#hd h1 {
+  font-size: 38px;
+  letter-spacing: .2px;
+}
+
+#hd h2 {
+  font-size: 90%;
+  color: #176d39;
+}
+
+h5, h3{
+  /*font-size: 172%*/
+  font-size: 132%
+}
+
+/*h2{*/
+  /*font-size: 172%*/
+  /*font-size: 152%*/
+/*}*/
+
+
+p {
+  font-size: 100%;
+  line-height: 18px;
+  padding-right: 3em;
+}
+
+a {
+  color: #198cff
+}
+
+.contact-info {
+  margin-top: 7px;
+  float: right;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  list-style-type: square;
+  margin-left: 1.25em;
+}
+
+.job {
+  position: relative;
+}
+
+.job h4 {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+}
+
+.line-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 1px;
+}
+
+.line-title:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.line-title span {
+  padding-right: 4px;
+  float: left;
+}
+
+.line-title hr {
+  border: 4px solid #DDD;
+  border-width: 1px 0 0 0;
+  padding: 0px 0px 0px 0px;
+  /*margin-left: 100px;*/
+}
+
+.spacer {
+  height: 1px;
+}
+
+.ml-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.ml-container > h4 {
+  font-size: 2em;
+  font-family: "Courier New";
+  padding: 4px 4px 4px 4px;
+  background-color: #F5F5F5;
+  font-size: 12px;
+}
