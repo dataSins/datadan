@@ -1,4 +1,4 @@
-## Welcome to my Websote
+## Welcome to my Website
 
 
 ### Markdown
